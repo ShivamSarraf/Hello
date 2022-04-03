@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <title>To Do List</title>
+</head>
+<body>
+  <!--Top navigation bar, links to home and creators-->
+  <div id="start" class="start">    
+    <img src="icon-clipboard-512.webp" style="justify-content: left; display: inline;">
+    <button class="navBarButton" onclick="window.location.href='home.html'">HOME</button>
+    <button class="navBarButton" onclick="window.location.href='creators.html'">CREATORS</button>
+  </div>
+  <!--Title Bar-->  
+  <div id="TitleBar">
+    <h2>Make a To-Do List</h2>
+  </div>
+  <div id="inputBar">
+    <h3>Organize your day.</h3>
+  </div>
+  <!--Input Box and Button-->
+  <form>
+  <input type="text" class="inputText" placeholder="Add your Task.....">
+  <button id="addButton"> Add Task!</button>
+  </form>
+  <!--List-->
+  <ul id="myUL">
+    <li>Sample Task- Add tasks above!</li>
+  </ul> 
+</body>
+</html>
